@@ -17,4 +17,8 @@ The impact of increasing the SMA window seems to be more accurate. Decreasing ma
 Step 3: Choose the set of parameters that best improved the trading algorithm returns.
 The best results were with a more time and longer SMA window. 
 
-Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your README.md file.
+** Step 3: Backtest the new model to evaluate its performance.
+
+
+Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+THe model performs better with more an increased training window and more months added to the training data. Increasing it too much makes the data invalid. 
